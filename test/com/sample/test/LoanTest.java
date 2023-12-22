@@ -7,11 +7,11 @@ import org.junit.Test;
 import static junit.framework.Assert.assertTrue;
 
 public class LoanTest {
-
     
     @Before
     public void setUp() throws Exception {
     }
+
     @Test
     public void testPaymentMethods() {
         double annualInterestRate = 2.5;
@@ -25,9 +25,9 @@ public class LoanTest {
 
     }
 
-    private double getMonthlyPayment(double annualInterestRate,int numberOfYears, double loanAmount) {
+    private double getMonthlyPayment(double annualInterestRate, int numberOfYears, double loanAmount) {
         double monthlyInterestRate = annualInterestRate / 1200;
-        double monthlyPayment = loanAmount * monthlyInterestRate /( 1 -
+        double monthlyPayment = loanAmount * monthlyInterestRate / (1 -
                 (1 / Math.pow(1 + monthlyInterestRate, numberOfYears * 12)));
         return monthlyPayment;
 
