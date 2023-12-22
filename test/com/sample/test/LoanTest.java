@@ -8,6 +8,7 @@ import static junit.framework.Assert.assertTrue;
 
 public class LoanTest {
 
+    
     @Before
     public void setUp() throws Exception {
     }
