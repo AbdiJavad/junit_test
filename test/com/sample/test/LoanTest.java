@@ -11,7 +11,6 @@ public class LoanTest {
     @Before
     public void setUp() throws Exception {
     }
-
     @Test
     public void testPaymentMethods() {
         double annualInterestRate = 2.5;
