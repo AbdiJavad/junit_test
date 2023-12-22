@@ -11,7 +11,6 @@ public class Loan {
     public Loan() {
         this(2.5, 1, 1000);
     }
-
     public Loan(double annualInterestRate, int numberOfYears, double loanAmount) {
         this.annualInterestRate = annualInterestRate;
         this.numberOfYears = numberOfYears;
