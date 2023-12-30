@@ -9,6 +9,7 @@ import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertTrue;
 
 public class ArrayListTest {
+
     private ArrayList<String> list =new ArrayList<String>();
     @Before
     public void setList() throws Exception{
