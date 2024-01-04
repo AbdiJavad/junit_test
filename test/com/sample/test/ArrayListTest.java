@@ -9,14 +9,15 @@ import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertTrue;
 
 public class ArrayListTest {
-    private ArrayList<String> list =new ArrayList<String>();
+    private ArrayList<String> list = new ArrayList<String>();
+
     @Before
-    public void setList() throws Exception{
+    public void setList() throws Exception {
 
     }
 
     @Test
-    public void testDeletion(){
+    public void testDeletion() {
         list.clear();
         assertTrue(list.isEmpty());
 
@@ -24,7 +25,7 @@ public class ArrayListTest {
         list.add("B");
         list.add("C");
         list.remove("B");
-        assertEquals(2,list.size());
+        assertEquals(2, list.size());
 
     }
 }
