@@ -14,7 +14,6 @@ public class ArrayListTest {
     public void setList() throws Exception {
 
     }
-
     @Test
     public void testDeletion() {
         list.clear();
