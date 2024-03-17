@@ -4,12 +4,11 @@ import java.util.Date;
 
 
 public class Loan {
-    
+
     private double annualInterestRate;
     private int numberOfYears;
     private double loanAmount;
     private java.util.Date loanDate;
-    
     public Loan() {
         this(2.5, 1, 1000);
     }
