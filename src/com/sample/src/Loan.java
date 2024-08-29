@@ -19,6 +19,7 @@ public class Loan {
         loanDate = new Date();
     }
 
+    
     public double getAnnualInterestRate() {
         return annualInterestRate;
     }
