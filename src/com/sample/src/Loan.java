@@ -53,8 +53,7 @@ public class Loan {
                 (1 / Math.pow(1 + monthlyInterestRate, numberOfYears * 12)));
         return monthlyPayment;
     }
-
-    public double getTotalPayment() {
+        public double getTotalPayment() {
         double totalPayment = getMonthlyPayment() * numberOfYears * 12;
         return totalPayment;
     }
