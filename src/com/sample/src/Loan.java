@@ -47,6 +47,7 @@ public class Loan {
         return loanDate;
     }
 
+    
     public double getMonthlyPayment() {
         double monthlyInterestRate = annualInterestRate / 1200;
         double monthlyPayment = loanAmount * monthlyInterestRate / (1 -
