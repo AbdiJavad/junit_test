@@ -54,6 +54,7 @@ public class Loan {
         return monthlyPayment;
     }
 
+    
     public double getTotalPayment() {
         double totalPayment = getMonthlyPayment() * numberOfYears * 12;
         return totalPayment;
