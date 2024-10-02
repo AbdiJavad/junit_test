@@ -8,6 +8,7 @@ public class Loan {
     private double loanAmount;
     private java.util.Date loanDate;
 
+    
     public Loan() {
         this(2.5, 1, 1000);
     }
