@@ -2,6 +2,7 @@ package
 
 import java.util.Date;
 
+
 public class Loan {
     private double annualInterestRate;
     private int numberOfYears;
